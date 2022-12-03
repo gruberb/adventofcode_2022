@@ -1,2 +1,4 @@
 .gitidea
 .DS_STORE
+target
+.idea
