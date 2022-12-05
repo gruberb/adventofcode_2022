@@ -67,7 +67,6 @@ fn main() {
 // }
 
 fn part_2(stacks: &mut Vec<Vec<char>>, amount: i32, from: usize, to: usize) {
-	println!("Move {} from {} to {}", amount, from, to);
 	if amount == 1 {
 		let element = stacks[from].pop().unwrap();
 		stacks[to].push(element);
